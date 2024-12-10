@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://127.0.0.1:5500/22nov/FullStackDevelopment.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Full Stack Development</title>
+
+    <style>
+        body {
+            background: linear-gradient(to right, #95c9d9, #e348486f);
+            color: #000000;
+            font-family: sans-serif;
+            margin : 0;
+            padding : 0;
+        }
+        h1, h2, h3 {
+            margin: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            color: #3fad03;
+            text-decoration: underline;
+        }
+        h2 {
+            color: #084f62fc;
+            text-decoration: underline;
+        }
+        h3 {
+            color: #060607;
+            text-decoration: underline;
+        }
+        p {
+            margin: 20px;
+            line-height: 1.6;
+        }
+        ul {
+            margin: 20px;
+        }
+        ul[type="square"] {
+            list-style-type: square;
+        }
+        img {
+            margin: 10px;
+        }
+        a img {
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+    <center>
+        <h1 style="color: brown;"><u>FULL STACK DEVELOPMENT</u></h1>
+    </center>
+   <h2>Definition :</h2>
+   <hr>
+    <b>Full-stack development involves working on both the front-end (client-side) and back-end (server-side) of a web application. A full-stack developer is proficient in technologies across the entire development process, enabling them to build and manage all aspects of a web application.</b>
+    <h3>
+<li><a href="./FrontEndDevelopment.html">FRONT-END (CLIENT-SIDE)</a></li>
+<li><a href="./BackEndDevelopment.html">BACK-END (SERVER-SIDE)</a></li>
+<li><a href="./MERNstack.html">MERN STACK</a></li>
+<li><a href="./MEANstack.html">MEAN STACK</a></li>
+    </h3>
+<h2>Skills Required for Full-Stack development :</h2>
+<hr>
+<p>
+    <b>1.Programming Languages: </b>Mastery of at least one front-end and one back-end language.
+</p>
+<p><b>2.API Development: </b>Creating and consuming RESTful APIs or GraphQL APIs.
+</p>
+<p>
+    <b>3.Frameworks/Tools: </b>Experience with popular front-end and back-end frameworks.
+</p>
+<p>
+    <b>4.Problem-Solving: </b>Debugging and optimizing code across the stack.
+</p>
+<p>
+    <b>5.Communication:</b> Working effectively with cross-functional teams.
+</p>
+<h2>Learning Path for Full Stack Development:</h2>
+<hr>
+<p><b>1. Foundations:</b>Learn HTML, CSS, and basic JavaScript.</p>
+<p><b>2. Front-End Frameworks:</b>Master frameworks like React or Angular.</p>
+<p><b>3. Server-Side Programming:</b>Learn Node.js, Python, or another back-end language</p>
+<p><b>4. Databases:</b>Understand database concepts and work with SQL and NoSQL databases.</p>
+<p><b>5. Version Control: </b>Get comfortable with Git and platforms like GitHub.</p>
+<p><b>6.Projects: </b>Build real-world projects to apply knowledge and demonstrate skills.</p>
+<p><b>7. Advanced Topics:</b>earn about cloud deployment, microservices, and security.</p>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

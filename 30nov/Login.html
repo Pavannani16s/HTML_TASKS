@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+    }
+    body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+     /* background-image: url(https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg);  */
+     /* background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-nature-forest-sun-ecology-image_2256183.jpg); */
+     background-position: center;
+background-image: url(https://c4.wallpaperflare.com/wallpaper/802/28/853/nature-hd-for-pc-download-1920x1080-wallpaper-preview.jpg);
+
+    background-size: cover;
+    }
+    .login{
+    width: 700px;
+    border: 5px solid rgba(255, 255, 255, .3);
+    border-radius: 100px;
+    color: #fff;
+    backdrop-filter: blur(40px) ;
+    padding: 140px 15px 70px;
+    }
+    .login h1{
+    text-align: center;
+    font-size: 40px;
+    font-style:italic;
+    margin-bottom: 25px;
+    }
+    .login .log{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+    .log .in{
+        position: relative;
+    width: 48%;
+    height: 50px;
+    margin: 13px 0;
+    }
+    .log .in input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 15px 15px 15px 50px;
+    }
+    .log .in input ::placeholder{
+    color: #fff;
+    }
+    .log .in i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    font-size: 25px;
+    }
+    .login .label{
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 0 23px;
+    }
+    .login .button{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    }
+    .login .alredy{
+        padding: 20px;
+    }
+    .login .red{
+        padding-left: 90px;
+    }
+
+</style>
+
+
+<body>
+    <div class="login">
+        <form action="https://formsubmit.co/dharavathpavan826@gmail.com">
+            <div class="qwe">
+                <h1>LOGIN HERE</h1>
+            </div>
+
+            <div class="log">
+
+                <div class="in">
+                    <input type="mail" name="enter mail" id="mail" placeholder="Enter your Email" required>
+                    <i class='bx bxl-gmail'></i>
+                    <label for="enter mail"></label>
+                </div>
+<br>
+                <div class="in">
+                    <input type="text" name="enter new password" id="password" placeholder="Enter password" required>
+                    <i class='bx bxs-lock' ></i>
+                    <label for="enter mail"></label>
+                </div>
+
+            </div>
+            <br>
+        <button type="submit" class="button">LOGIN</button>
+        <br>
+        <div class="alredy">
+            <big>Not registered yet? <a href="./index.html"><b>Register Here</b></a></big><br>
+        </div>
+        <br>
+        <div class="req">
+            <big>Forgot password ?<a href="./Forgotpassword.html"><b>Reset here</b></a></big>
+        </div>
+
+            
+        </form>
+    </div>
+</body>
+</html>

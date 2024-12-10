@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background: url(https://c4.wallpaperflare.com/wallpaper/802/28/853/nature-hd-for-pc-download-1920x1080-wallpaper-preview.jpg);
+    /* background: url(./istockphoto-1442849073-612x612.jpg) no-repeat center center fixed; */
+}
+.wapper{
+    width: 750px;
+    background:rgba(255, 255, 255, .01);
+    border: 2px solid rgba(255, 255, 255, .3);
+    backdrop-filter: blur(40px);
+    border-radius: 10px;
+    color: #fff;
+    padding: 40px 35px 70px;
+
+}   
+.wapper h1{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.wapper .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background: slateblue; */
+}
+.input-box .input-field {
+    position: relative;
+    width: 48%;
+    height: 50px;
+    /* background: salmon; */
+    margin: 13px 0;
+}
+.input-box .input-field input{
+width: 100%;
+height: 100%;
+background: transparent;
+border: 2px solid rgba(255, 255, 255, .2);
+outline: none;
+font-size: 25px;
+color: #fff;
+border-radius: 6px;
+padding: 15px 15px 15px 50px;
+}
+.input-box .input-field input ::placeholder {
+    color: #fff;
+}
+.input-box .input-field i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    font-size: 25px;
+}
+.wapper .label{
+    display: inline-block;
+    font-size: 15px;
+    margin: 10px 0 23px;
+}
+
+
+.wapper .btn {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+font-weight: 600;
+}
+.sign{
+    padding: 10px;
+    font-size: larger;
+}
+
+
+</style>
+
+<body>
+
+<div class="wapper">
+
+    <form action="https://formsubmit.co/dharavathpavan826@gmail.com" method="post">
+
+        <h1>Registration</h1>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="text" name="fullname" id="" placeholder="Entern Full Name" required>
+                <i class='bx bxs-user'></i>
+            </div>
+
+            <div class="input-field">
+                <input type="text" name="Username" placeholder="Enter Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="email" name="mail" placeholder="Enter GMail" required>
+                <i class='bx bxl-gmail' ></i>
+            </div>
+
+            <div class="input-field">
+                <input type="number" name="phone number" placeholder="Enter Phone Number" required>
+                <i class='bx bxs-phone' ></i>
+            </div>
+        </div>
+
+        <div class="input-box">
+            <div class="input-field">
+                <input type="password" name="password" placeholder="Enter Password" required>
+                <i class='bx bxs-lock' ></i>
+            </div>
+
+            <div class="input-field">
+                <input type="password" name="confirm password" placeholder="Confirm Password" required>
+                <i class='bx bxs-lock' ></i>
+            </div>
+        </div>
+
+    <label><input type="checkbox" name="button">I here by declare that the above imformation provided is true and correct</label>
+    <button type="submit" class="btn">REGISTER</button>
+
+        <div class="sign">
+            Already have an account?
+        </div>
+
+        
+    </form>
+</div>
+
+
+</div>
+</body>
+</html>
